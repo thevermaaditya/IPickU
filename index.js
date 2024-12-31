@@ -49,6 +49,7 @@ if (!fan || !text) {
         fan.style.left = e.pageX + "px";
         fan.style.top = e.pageY + "px";
         fan.style.transitionDuration = "0.1s";
+
         // updateTextColor();
     });
     document.addEventListener('touchmove', (e) => {
@@ -59,7 +60,7 @@ if (!fan || !text) {
         fan.style.transitionDuration = "0.1s";
         // updateTextColor();
     });
-    
+
     changeText();
 }
 
