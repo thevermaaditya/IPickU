@@ -4,7 +4,10 @@
 }
 
 body{
-    overflow: hidden;}
+    overflow: hidden;
+    background-color: #c2a789;
+    /* overflow-x: hidden; */
+}
 .fan{
     position: absolute;
     left: 10%;
@@ -15,10 +18,11 @@ body{
     border-radius: 50%;
     z-index: -1;
 }
-.text{
+.text p{
     z-index: 1;
-    color: white;
+    color: #c2a789;
 }
+
 p{
     font-size: larger;
     font-weight: bold;
@@ -29,8 +33,4 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.white-text {
-    color: white;
 }
