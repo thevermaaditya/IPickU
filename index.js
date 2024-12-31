@@ -53,7 +53,7 @@ if (!fan || !text) {
     });
     document.addEventListener('touchmove', (e) => {
         // e.preventDefault();
-        console.log(e.touches);
+        // console.log(e.touches);
         fan.style.left = e.touches[0].clientX + "px";
         fan.style.top = e.touches[0].clientY + "px";
         fan.style.transitionDuration = "0.1s";
