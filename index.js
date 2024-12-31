@@ -25,6 +25,11 @@ if (!fan || !text) {
         fan.style.top = e.pageY + "px";
         fan.style.transitionDuration = "0.1s";
     });
+    document.addEventListener('touchmove', (e) => {
+        fan.style.left = e.pageX + "px";
+        fan.style.top = e.pageY + "px";
+        fan.style.transitionDuration = "0.1s";
+    });
 
     changeText();
 }
